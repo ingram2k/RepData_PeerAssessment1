@@ -177,6 +177,9 @@ median__imp_steps
 
 [1] 10766.19
 
+We can see that the mean after imput is very similar when the non-impute version
+however the median change slightly because we replace NA with mean of interval now so the median will move toward the mean.
+
 ## Are there differences in activity patterns between weekdays and weekends?
 
 For this part the \color{red}{\verb|weekdays()|}weekdays() function may be of some help here. Use the dataset with the filled-in missing values for this part.

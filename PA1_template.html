@@ -469,6 +469,7 @@ mean_imp_steps</code></pre>
 <pre class="r"><code>median__imp_steps &lt;- median(imp_per_day$steps)
 median__imp_steps</code></pre>
 <p>[1] 10766.19</p>
+<p>We can see that the mean after imput is very similar when the non-impute version however the median change slightly because we replace NA with mean of interval now so the median will move toward the mean.</p>
 <div id="are-there-differences-in-activity-patterns-between-weekdays-and-weekends" class="section level2">
 <h2>Are there differences in activity patterns between weekdays and weekends?</h2>
 <p>For this part the weekdays() function may be of some help here. Use the dataset with the filled-in missing values for this part.</p>
